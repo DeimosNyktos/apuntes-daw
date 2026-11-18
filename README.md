@@ -2,6 +2,8 @@
 
 Web de apuntes de las Unidades 1 y 2: tipos de datos, variables, entrada y salida, operadores, conversiones, selección, bucles y más. Incluye diagramas de flujo, ejemplos de código, enunciados de ejercicios y soluciones.
 
+**Web en vivo:** https://deimosnyktos.github.io/apuntes-java-m3/
+
 Es un único archivo, `index.html`, sin dependencias: ábrelo con doble clic en el navegador.
 
 ## Contenido y créditos
