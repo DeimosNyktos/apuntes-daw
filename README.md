@@ -9,7 +9,7 @@ Web de apuntes de primer curso de DAW con cuatro asignaturas, que se cambian con
 
 Cada tema trae un resumen, la teoría del curso, enunciados de ejercicios y las soluciones del profe cuando existen.
 
-**Web en vivo:** https://deimosnyktos.github.io/apuntes-java-m3/
+**Web en vivo:** https://deimosnyktos.github.io/apuntes-daw/
 
 Es un único archivo, `index.html`, sin dependencias: ábrelo con doble clic en el navegador.
 
