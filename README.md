@@ -10,3 +10,8 @@ Es un único archivo, `index.html`, sin dependencias: ábrelo con doble clic en 
 
 - Los apuntes y diagramas están escritos para esta web.
 - Los enunciados, ejemplos y soluciones proceden de los materiales del módulo M3 Programación del INS La Ferreria. Son de sus autores y se incluyen con fines de estudio.
+
+
+## Estado del proyecto
+
+Esta web se irá actualizando según avance el curso: se añadirán los temas, ejemplos y ejercicios nuevos a medida que se vean en clase. Ahora mismo cubre las Unidades 1 y 2.
