@@ -124,6 +124,13 @@ nav.toc a.ok::after{content:" ✓";color:var(--yes)}
 .subjects button[aria-selected="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 .subj[hidden]{display:none}
 .subj>header.sh{padding-block:28px 4px;display:grid;gap:10px}
+.fc .t.key{text-decoration:underline}.fc .t.wkey{text-decoration:underline dotted}
+.fc .lbl.card{font:600 11px var(--mono);fill:var(--muted);dominant-baseline:auto}
+.fc .txt{stroke-dasharray:3 3}
+.tag.t-gen{background:#efe4fb;color:#6a3fc4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.t-gen{background:#2a2343;color:#c4a2ff}}
+:root[data-theme="dark"] .tag.t-gen{background:#2a2343;color:#c4a2ff}
+.gen-note{font-size:.82rem;color:var(--muted);border-left:3px solid var(--accent);padding:2px 10px}
 @media print{.bar{display:none}details{display:block}}
 </style>
 </head>
@@ -17214,9 +17221,7 @@ interrelacions (amb els seus valors de participació i cardinalitat), obtinguts 
 partir de l'informe de l'analista.
 
 Cal dibuixar-lo de manera que les interrelacions és llegeixin d’esquerra a dreta
-i de dalt cap baix.</div></details><h3 class="sub">Ejercicios</h3><div class="stack"><details class="act"><summary><b>Informe del analista: fábrica de muebles</b><span class="tag t-ejemplo">ejemplo</span><span class="tag t-none">sin solución publicada</span></summary><div class="stack"><h4>Enunciado <small>(original en catalán/castellano)</small></h4><div class="stmt">role="main"&gt;
-
-INFORME DE L'ANALISTA: EMPRESA DE MOBLES
+i de dalt cap baix.</div></details><h3 class="sub">Ejercicios</h3><div class="stack"><details class="act"><summary><b>Informe del analista: fábrica de muebles</b><span class="tag t-ejemplo">ejemplo</span><span class="tag t-none">sin solución publicada</span></summary><div class="stack"><h4>Enunciado <small>(original en catalán/castellano)</small></h4><div class="stmt">INFORME DE L'ANALISTA: EMPRESA DE MOBLES
 
 Es desitja crear una base de dades per gestionar una determinada companyia dedicada a fabricar mobles.
 
@@ -17243,154 +17248,7 @@ pot dirigir diversos empleats a la vegada.
 
 9. Cada línia d’una factura s'identifica per un número de línia (1,2,3...) i inclou el nom del producte comprat, el preu amb el que venem aquest producte i la quantitat d'unitats d'aquest producte comprats pel client.
 
-10. Finalment, la factura també ha d'incloure la data d'enviament dels productes comprats (es fa només un enviament amb tots els productes).
-
-Última modificación: miércoles, 17 de septiembre de 2025, 15:25
-
-Contactar con el soporte del sitio
-
-Usted se ha identificado como usuario (Cerrar sesión)
-
-Resumen de retención de datos
-Descargar la app para dispositivos móviles
-
-Desarrollado por Moodle
-
-Mensajería
-
- Contactos
-
- Mensajes seleccionados:
- 1
-
- Buscar personas y mensajes
-
- Contactos
-
- 0
- Hay 0 solicitudes de contacto pendientes
-
- Buscar personas y mensajes
-
- Configuración
-
--
-
- Contactos
-
--
-
- Peticiones
-
- 0
- Hay 0 solicitudes de contacto pendientes
-
- No hay contactos
-
- No hay solicitudes de contacto
-
-Solicitud de contacto enviada
-
-Espacio personal
-
-Guardar borradores de mensajes, notas, etc, para acceder a ellos más tarde.
-
-No puede enviar mensajes
-
-Usted no tiene permiso para enviar mensajes en esta conversación
-
- Borrar para mí y para todos los demás
-
- Bloque
-
- Desbloquear
-
- Quitar
-
- Añadir
-
- Borrar
-
- Borrar
-
- Enviar solicitud de contacto
-
- Aceptar y añadir a los contactos
-
- Rechazar
-
- OK
- Cancelar
-
- Destacados
-
- ()
-
- conversaciones en total
-
- Hay conversaciones sin leer
-
-Sin conversaciones destacadas
-
- Grupo
-
- ()
-
- conversaciones en total
-
- Hay conversaciones sin leer
-
-No hay conversaciónes de grupo
-
- Privado
-
- ()
-
- conversaciones en total
-
- Hay conversaciones sin leer
-
-No hay conversaciones privadas
-
-Contactos
-
-No contactos
-
- Cargar más
-
-Mensajes
-
- Cargar más
-
-No hay resultados
-
-Buscar personas y mensajes
-
-Privacidad
-
-Puede restringir quién puede enviarle mensajes
-
- Aceptar mensajes desde:
-
- Únicamente mis contactos
-
- Mis contactos y cualquier persona de mis cursos
-
-Preferencias de notificación
-
-General
-
- Usar "intro" para enviar
-
- Eliminar mensajes seleccionados
-
- Enviar solicitud de contacto
-
-Ha bloqueado a este usuario.
-
- Desbloquear usuario
-
- Ver todo</div><p class="muted">Es el caso que se usa en la teoría. El diagrama solución del profe es un fichero <code>.dia</code> que no se puede mostrar aquí.</p></div></details><details class="act"><summary><b>Ejercicios del modelo de Chen (I)</b><span class="tag t-ejercicio">ejercicio</span><span class="tag t-none">sin solución publicada</span></summary><div class="stack"><h4>Enunciado <small>(original en catalán/castellano)</small></h4><div class="stmt">Exercicis CHEN (I)
+10. Finalment, la factura també ha d'incloure la data d'enviament dels productes comprats (es fa només un enviament amb tots els productes).</div><p class="muted">Es el caso que se usa en la teoría. El diagrama solución del profe es un fichero <code>.dia</code> que no se puede mostrar aquí.</p></div></details><details class="act"><summary><b>Ejercicios del modelo de Chen (I)</b><span class="tag t-ejercicio">ejercicio</span><span class="tag t-none">sin solución publicada</span></summary><div class="stack"><h4>Enunciado <small>(original en catalán/castellano)</small></h4><div class="stmt">Exercicis CHEN (I)
 
 LLIURAMENT:
 
